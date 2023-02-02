@@ -105,6 +105,26 @@ h1 {
     width: 100%;
 }
 
+.btn2C,
+.btn3C,
+.btn4C {
+    margin: auto 30px;
+}
+
+.btn2C p,
+.btn3C p,
+.btn4C div {
+    margin: 15px;
+}
+
+.btn4C div {
+    margin: 15px;
+}
+
+.btn4C div p {
+    display: block;
+}
+
 .border {
     border-radius: 20px;
     border: 2px solid #000
