@@ -105,6 +105,14 @@ h1 {
     width: 100%;
 }
 
+/* 
+.btn1C div,
+.btn2C p,
+.btn3C p,
+.btn4C p {
+    transition: 1s;
+} */
+
 .btn2C,
 .btn3C,
 .btn4C {
@@ -136,4 +144,33 @@ h1 {
 
 .d-none {
     display: none;
+}
+
+
+@media (width: 400px) {
+    .mainInfo {
+        flex-direction: column;
+        width: 350px;
+        margin: 15px;
+        height: 100%;
+        padding: 15px;
+    }
+
+    .contactInfo {
+        text-align: center;
+        width: 350px;
+    }
+
+    .btnCont {
+        margin: 0px;
+    }
+
+    img {
+        margin: 0;
+    }
+
+    .btnCont p {
+        margin-top: 0px;
+        display: inline-block;
+    }
 }
