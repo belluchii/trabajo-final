@@ -22,11 +22,16 @@ body {
 }
 
 .btnCont {
-    background: #000;
+    background: #0000;
+    margin-top: 150px;
 }
 
 .btnCont p {
-    display: inline-block;
+    transition: .3s;
+    padding: 3px 10px;
+    display: block;
+    margin: 5px 0px;
+    position: relative;
 
 }
 
@@ -40,6 +45,7 @@ body {
     background: var(--main);
     /* flex-direction: column; */
     margin: auto;
+    height: 550px;
     width: 1000px;
     text-align: center;
     padding: 15px;
@@ -97,6 +103,15 @@ h1 {
 
 .subH1 {
     width: 100%;
+}
+
+.border {
+    border-radius: 20px;
+    border: 2px solid #000
+}
+
+.iBorder {
+    border: 2px solid #0000;
 }
 
 .d-none {
